@@ -78,10 +78,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Clínica Florescer 40+ · Emagrecimento na Menopausa" },
+      { title: "Instituto Trizi · Emagrecimento na Menopausa" },
       { name: "description", content: "Emagrecimento médico para mulheres 40+ na menopausa." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Clínica Florescer 40+" },
+      { property: "og:title", content: "Instituto Trizi" },
       { property: "og:description", content: "Emagrecimento médico para mulheres 40+ na menopausa." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

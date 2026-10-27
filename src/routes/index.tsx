@@ -6,9 +6,9 @@ const WHATS = "https://wa.me/5500000000000?text=Quero%20agendar%20minha%20avalia
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Clínica Florescer 40+ · Emagrecimento na Menopausa" },
+      { title: "Instituto Trizi · Emagrecimento na Menopausa" },
       { name: "description", content: "Programa médico de emagrecimento para mulheres 40+ na menopausa: hormônios, nutrição e força muscular." },
-      { property: "og:title", content: "Clínica Florescer 40+" },
+      { property: "og:title", content: "Instituto Trizi" },
       { property: "og:description", content: "Emagreça na menopausa com acompanhamento médico de 90 dias." },
     ],
   }),
@@ -29,7 +29,7 @@ function Index() {
   return (
     <main className="font-sans">
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-        <span className="font-display text-2xl">Florescer<span className="text-primary">40+</span></span>
+        <span className="font-display text-2xl">Instituto <span className="text-primary">Trizi</span></span>
         <a href={WHATS} className="text-sm font-semibold text-accent underline-offset-4 hover:underline">Agendar avaliação</a>
       </header>
 
@@ -59,7 +59,7 @@ function Index() {
       </section>
 
       <section className="mx-auto max-w-6xl px-6 py-20">
-        <H2>O Método Florescer em 4 pilares</H2>
+        <H2>O Método Trizi em 4 pilares</H2>
         <div className="mt-10 grid gap-6 md:grid-cols-4">
           {[
             ["01", "Hormônios", "Avaliação com médica especialista e, se indicada, terapia hormonal segura."],
@@ -96,7 +96,7 @@ function Index() {
       </section>
 
       <section id="oferta" className="mx-auto max-w-3xl px-6 py-20 text-center">
-        <p className="font-semibold text-primary">Programa Florescer 90 Dias</p>
+        <p className="font-semibold text-primary">Programa Trizi 90 Dias</p>
         <H2>Tudo o que você precisa, em um só lugar</H2>
         <div className="mt-10 rounded-[2rem] bg-card p-8 text-left shadow-xl md:p-12">
           <ul className="space-y-3">
@@ -139,7 +139,7 @@ function Index() {
       </section>
 
       <footer className="border-t border-border py-8 text-center text-xs text-muted-foreground">
-        © 2026 Clínica Florescer 40+ · Responsável técnica: Dra. [Nome] · CRM [00000] · Conteúdo informativo, não substitui consulta médica.
+        © 2026 Instituto Trizi · Responsável técnica: Dra. [Nome] · CRM [00000] · Conteúdo informativo, não substitui consulta médica.
       </footer>
     </main>
   );
