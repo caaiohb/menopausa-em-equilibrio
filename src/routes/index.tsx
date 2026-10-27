@@ -139,7 +139,7 @@ function Index() {
       </section>
 
       <footer className="border-t border-border py-8 text-center text-xs text-muted-foreground">
-        © 2026 Instituto Trizi · Responsável técnica: Dra. Janifer Trizi · CRM [00000] · Conteúdo informativo, não substitui consulta médica.
+        © 2026 Instituto Trizi · Responsável técnica: Dra. Janifer Trizi · CRM 112184 · Conteúdo informativo, não substitui consulta médica.
       </footer>
     </main>
   );
