@@ -1,14 +1,18 @@
-# Welcome to your Lovable project
+# Menopausa em Equilíbrio
+
+Crie um site de uma página só para o meu produto que é uma clinica de emagrecimento e focado em cuidar de pacientes 40+ que estão na menopausa, defina a melhor oferta que puder e as melhores práticas do nicho.
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://menopausa-em-equilibrio.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/8dca33b1-4347-44fa-aafb-481b6f6ad083).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +24,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
